@@ -9,7 +9,7 @@ class Character():
 
     def talk(self):
         if self.conversation is not None:
-            print("["+self.name,"says}:"+self.conversation)
+            print("["+self.name,"says]:"+self.conversation)
         else:
             print(self.name +" doesn't want to talk to you")
 
